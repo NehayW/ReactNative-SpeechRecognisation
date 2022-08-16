@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.speech2text"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:5:5-71
+12-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:6:5-79
+13-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:6:22-77
+14
+15    <queries>
+15-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:7:5-17:15
+16        <package android:name="com.google.android.googlequicksearchbox" />
+16-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:8:5-70
+16-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:8:14-68
+17
+18        <intent>
+18-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:9:5-13:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:10:5-56
+19-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:10:13-54
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:11:5-65
+21-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:11:15-63
+22
+23            <data android:scheme="https" />
+23-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:12:5-35
+23-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:12:11-33
+24        </intent>
+25        <intent>
+25-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:14:5-16:14
+26            <action android:name="android.speech.RecognitionService" />
+26-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:15:5-64
+26-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:15:13-61
+27        </intent>
+28    </queries>
+29
+30    <application
+30-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:18:5-37:19
+31        android:name="com.speech2text.MainApplication"
+31-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:19:7-38
+32        android:allowBackup="false"
+32-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:23:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /home/wangoes116/.gradle/caches/transforms-3/6636202a2e344f69092b239199c01f49/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:21:7-41
+35        android:label="@string/app_name"
+35-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:20:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:22:7-52
+37        android:theme="@style/AppTheme" >
+37-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:24:7-38
+38        <activity
+38-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:25:7-36:18
+39            android:name="com.speech2text.MainActivity"
+39-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:26:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:28:9-118
+41            android:exported="true"
+41-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:31:9-32
+42            android:label="@string/app_name"
+42-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:27:9-41
+43            android:launchMode="singleTask"
+43-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:29:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:30:9-51
+45            <intent-filter>
+45-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:32:9-35:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:33:13-65
+46-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:33:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:34:13-73
+48-->/home/wangoes116/Project/Reusable_Components/Speech2Text/android/app/src/main/AndroidManifest.xml:34:23-70
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>
